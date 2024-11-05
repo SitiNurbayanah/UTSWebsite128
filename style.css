@@ -1,0 +1,84 @@
+.grid {
+  width: 400px;
+  height: 400px;
+  display: grid;
+  position: relative;
+}
+
+.grid__item {
+  border: 1px;
+  border-color: whitesmoke;
+}
+
+.for-tts {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.for-tts::-webkit-input-placeholder {
+  /* WebKit browsers */
+  vertical-align: top;
+  text-align: left;
+}
+.for-tts:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  line-height: 1.5em;
+  color: red;
+}
+.for-tts::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  line-height: 1.5em;
+  color: black;
+}
+.for-tts:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  line-height: 1.5em;
+}
+.salah {
+  font-weight: bold;
+  color: red;
+}
+
+.benar {
+  color: green;
+}
+
+body {
+  background-color: white;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #8b4513;
+  padding: 25px;
+  color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-fluid {
+  max-width: 900px;
+  width: 100%;
+}
+
+button {
+  background-color: #8b4513;
+  color: white;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: whitesmoke;
+}
+
+u {
+  font-weight: bold;
+}
